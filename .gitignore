@@ -1,3 +1,6 @@
+# Raw datasets only
+data/raw/
+
 # Python
 __pycache__/
 *.pyc
@@ -14,10 +17,6 @@ node_modules/
 # OS
 .DS_Store
 Thumbs.db
-
-# Data
-data/raw/
-*.csv
 
 # Logs
 *.log
