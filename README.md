@@ -265,7 +265,7 @@ EventPulse-AI
 Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/EventPulse-AI.git
+git clone https://github.com/neekhilsingh/EventPulse-AI.git
 ```
 
 Move into the project
@@ -323,50 +323,30 @@ streamlit run frontend/app.py
 ```
 
 ---
-
 # 📸 Screenshots
 
-## Dashboard
-
-> *(Add Screenshot)*
-
----
-
-## Prediction Result
-
-> *(Add Screenshot)*
+## 🏠 Dashboard
+![Dashboard](screenshots/Dashboard.png)
 
 ---
 
-## AI Recommendation
-
-> *(Add Screenshot)*
-
----
-
-## Emergency Resource Allocation
-
-> *(Add Screenshot)*
+## 🔮 Prediction Result
+![Prediction](screenshots/Prediction.png)
 
 ---
 
-## Interactive Map
-
-> *(Add Screenshot)*
+## 🧠 AI Recommendation
+![AI Recommendation](screenshots/AI_Recommendation.png)
 
 ---
 
-# 🔮 Future Improvements
+## 🚓 Emergency Resource Allocation
+![Emergency Resources](screenshots/Emergency_Resource.png)
 
-- Live Traffic API Integration
-- Real-time CCTV Analytics
-- GPS-based Incident Detection
-- Deep Learning Models
-- Automatic Route Optimization
-- Live Emergency Vehicle Tracking
-- SMS & Push Notifications
-- Cloud Deployment
-- Mobile Application
+---
+
+# 🗺️ Interactive Map
+![Interactive Map](screenshots/Interactive_Map.png)
 
 ---
 
@@ -381,6 +361,21 @@ EventPulse-AI enables authorities to:
 - Enhance urban traffic management
 
 ---
+
+# 🔮 Future Improvements
+- Live Traffic API Integration
+- Real-time CCTV Analytics
+- GPS-based Incident Detection
+- Deep Learning Models
+- Automatic Route Optimization
+- Live Emergency Vehicle Tracking
+- SMS & Push Notifications
+- Cloud Deployment
+- Mobile Application
+
+---
+
+
 
 # 👨‍💻 Team Kaizer
 
