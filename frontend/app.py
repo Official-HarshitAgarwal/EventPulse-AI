@@ -2,6 +2,9 @@ import streamlit as st
 import requests
 import pandas as pd
 
+# Backend URL: reads from Streamlit secrets on Cloud, falls back to localhost for local dev
+backend_url = st.secrets.get("https://eventpulse-ai-5iie.onrender.com", "http://127.0.0.1:8000")
+
 st.set_page_config(
     page_title="EventPulse-AI",
     page_icon="🚦",
@@ -188,7 +191,7 @@ if analyze:
     with st.spinner("Analyzing incident..."):
 
         response=requests.post(
-            "http://127.0.0.1:8000/predict",
+            f"{backend_url}/predict",
             json=payload
         )
 
