@@ -195,7 +195,9 @@ if analyze:
             json=payload
         )
 
-    result=response.json()
+    st.write(f"DEBUG status: {response.status_code}")
+    st.write(f"DEBUG body: {response.text}")
+    result = response.json()
 
     rec=result["recommendation"]
     resources=result["resources"]
