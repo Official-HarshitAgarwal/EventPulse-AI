@@ -17,6 +17,11 @@ def reverse_geocode(lat, lng):
         "lng": lng
     }
 
+    print("MAPPLS STATUS:", response.status_code)
+    print("MAPPLS RESPONSE:", data)
+    if data.get("responseCode") == 200:
+    return data["results"][0]
+    return {}
     response = requests.get(url, params=params)
 
     data = response.json()
