@@ -4,8 +4,7 @@ import pandas as pd
 import os
 
 # Backend URL: reads from environment variable on Render, falls back to localhost for local dev
-backend_url = os.environ.get("https://eventpulse-ai-5iie.onrender.com", "http://127.0.0.1:8000")
-
+backend_url = os.environ.get("BACKEND_URL", "http://127.0.0.1:8000")
 st.set_page_config(
     page_title="EventPulse-AI",
     page_icon="🚦",
