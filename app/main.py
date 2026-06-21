@@ -12,11 +12,11 @@ app = FastAPI(
     version="1.0.0"
 )
 
-# Allow the Streamlit Cloud frontend to call this API
+# Allow the frontend (now hosted on Render) to call this API
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
-        "https://eventpulse-ai-5iie.streamlit.app",
+        "https://eventpulse-ai-frontend.onrender.com",  # update if your actual frontend URL differs
         "http://localhost:8501",  # for local Streamlit testing
     ],
     allow_credentials=True,
